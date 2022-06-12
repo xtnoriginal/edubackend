@@ -19,7 +19,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
@@ -42,32 +41,37 @@ public class AuthController {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    //JwtTokenUtil jwtTokenUtil;
+    @Autowired
+    private JwtTokenUtil jwtTokenUtil;
 
 
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(@RequestBody SignInRequest request) {
-        System.out.println(request.getEmail());
 
+        String token ="";
         try{
             Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(request.getEmail(),request.getPassword()));
-            //UserDetails userDetails =(User) authentication.getPrincipal();
+            UserDetails userDetails =(UserDetails) authentication.getPrincipal();
 
-            //System.out.println(authentication.getCredentials());
-            //System.out.println(authentication.getAuthorities());
+
+            SecurityContextHolder.getContext().setAuthentication(authentication);
+
+            token = jwtTokenUtil.generateToken(userDetails);
+            System.out.println(token);
+
             //String token = jwtTokenUtil.generateToken(userDetails);
-            if (authentication.isAuthenticated()) {
+           /* if (authentication.isAuthenticated()) {
                 logger.info("Logged In");
             }else {
                 return new ResponseEntity<>(new AuthResponse("gfsxdfxfjkjjfdgffjj","Claudious Nhemwa","spicectn@gmail.com" ),HttpStatus.UNAUTHORIZED);
-            }
+            }*/
 
         }catch(Exception exception){
             exception.printStackTrace();
             return new ResponseEntity<>(new AuthResponse("gfsxdfxfjkjjfdgffjj","Claudious Nhemwa","spicectn@gmail.com" ),HttpStatus.UNAUTHORIZED);
         }
 
-        return new ResponseEntity<>(new AuthResponse("gfsxdfxfjkjjfdgffjj","Claudious Nhemwa","spicectn@gmail.com" ),HttpStatus.ACCEPTED);
+        return new ResponseEntity<>(new AuthResponse(token,"Claudious Nhemwa","spicectn@gmail.com" ),HttpStatus.ACCEPTED);
        /* Map<String, Object> responseMap = new HashMap<>();
         try {
             Authentication auth = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(request.getEmail()
@@ -150,6 +154,9 @@ public class AuthController {
 
     @PostMapping("/signup")
     public String signup(@RequestBody SignUpRequest request){
+        if(signUpService.isEmailTaken(request.getEmail())){
+
+        }
         return signUpService.register(request);
     }
 

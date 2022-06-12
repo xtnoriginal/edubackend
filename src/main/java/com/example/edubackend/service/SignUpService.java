@@ -47,8 +47,6 @@ public class SignUpService {
         // buildEmail(request.getFirstName(), link));
 
         return token;
-
-
     }
 
     @Transactional
@@ -72,6 +70,10 @@ public class SignUpService {
                 confirmationToken.getUser().getEmail());
         return "confirmed";
 
+    }
+
+    public boolean isEmailTaken(String email){
+        return userService.isEmailTaken(email);
     }
 
     private String buildEmail(String name, String link) {

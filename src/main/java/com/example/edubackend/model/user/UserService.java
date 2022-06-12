@@ -70,6 +70,11 @@ public class UserService implements UserDetailsService {
         return token;
     }
 
+
+    public boolean isEmailTaken(String email){
+        return userRepository.existsByEmail(email);
+    }
+
     public int enableUser(String email) {
         return userRepository.enableUser(email);
     }
@@ -142,7 +147,5 @@ public class UserService implements UserDetailsService {
                 "  </tbody></table><div class=\"yj6qo\"></div><div class=\"adL\">\n" +
                 "\n" +
                 "</div></div>";
-
-
     }
 }
