@@ -1,0 +1,494 @@
+[
+  {
+    "question": "A student uses a measuring cylinder to measure the volume of some water. The diagram shows\npart of the measuring cylinder. The top and bottom of the meniscus are labelled.What is the volume of the water?  ",
+    "picture": "0625_12_FM_1.png",
+    "answers" : [
+      {"A":" 47.0cm3"},
+      {"B": "47.5cm3 "},
+      {"C": "49.0cm3" },
+      {"D":  "49.5cm3"}
+    ]
+  },
+  {
+    "question": "The graph represents the motion of a train travelling between two stations.Which statement about the train is correct? ",
+    "picture": "0625_12_FM_2.png",
+    "answers" : [
+      {"A":"Its acceleration takes a longer time than its deceleration. "},
+      {"B": "It travels at constant speed for less than half of its journey time. "},
+      {"C": "It travels 2000m in the first 100s. " },
+      {"D":  "It travels 10000m at constant speed."}
+    ]
+  },
+  {
+    "question": "A car travels 6.0km along a main road in 6.0 minutes. It then travels 2.0km along a minor road in\n6.0 minutes. Which calculation of average speed for the whole journey is correct? ",
+    "picture": "0625_12_FM_3.png",
+    "answers" : [
+      {"A":"8.0 ÷ 12.0 = 0.67 km/ minute "},
+      {"B": "12.0 ÷ 8.0 = 1.5km/ minute  "},
+      {"C": "8.0 + 12.0 = 20km/ minute " },
+      {"D":  "8.0 × 12.0 = 96 km/ minute "}
+    ]
+  }
+,
+  {
+    "question": "Two metal blocks P and Q have identical dimensions. They hang on identical spring balances. What can be deduced about P and Q? ",
+    "picture": "0625_12_FM_4.png",
+    "answers" : [
+      {"A":"They have different volumes and different weights."},
+      {"B": "They have different volumes, but equal masses. "},
+      {"C": "They have equal volumes and equal weights. " },
+      {"D":  "They have equal volumes, but different masses. "}
+    ]
+  }
+,
+  {
+    "question": "A person measures the length, width, height and mass of a metal block with rectangular sides.\nWhich of these measurements must be used in order to calculate the density of the metal?",
+    "picture": null,
+    "answers" : [
+      {"A":"mass only "},
+      {"B": "height and mass only "},
+      {"C": "length, width and height only " },
+      {"D":  "length, width, height and mass "}
+    ]
+  }
+,
+  {
+    "question": "The diagram shows the only three forces acting on an object. What is the resultant force on the object? ",
+    "picture": "0625_12_FM_5.png",
+    "answers" : [
+      {"A":"0N "},
+      {"B": "5.0N towards the left "},
+      {"C": "5.0N towards the right " },
+      {"D":  "10.0N towards the right "}
+    ]
+  }
+,
+  {
+    "question": "A uniform rod rests on a pivot at its centre. The rod is not attached to the pivot. Forces are then\napplied to the rod in four different ways, as shown. The weight of the rod can be ignored.\nWhich diagram shows the rod in equilibrium?",
+    "picture": null,
+    "answers" : [
+      {"A":"0N "},
+      {"B": "5.0N towards the left "},
+      {"C": "5.0N towards the right " },
+      {"D":  "10.0N towards the right "}
+    ]
+  }
+,
+  {
+    "question": "A helicopter takes off from the ground and rises vertically. It then hovers at a constant height\nabove the ground.\nWhich sequence of energy changes takes place during the gain in height? ",
+    "picture": null,
+    "answers" : [
+      {"A":"chemical → gravitational potential → kinetic"},
+      {"B": "chemical → kinetic → gravitational potential "},
+      {"C": "gravitational potential → chemical → kinetic " },
+      {"D":  "kinetic → chemical → gravitational potential  "}
+    ]
+  }
+,
+  {
+    "question": " Four people of equal weight on a beach use different routes to get to the top of a sea wall.Which person produces the greatest average power?",
+    "picture": "0625_12_FM_6.png",
+    "answers" : null,
+
+    "table" : [
+      { "person": "A", "route": "runs across the beach, then climbs the ladder", "time_taken_s": 8},
+      { "person": "B", "route": "walks across the beach, then climbs the ladder", "time_taken_s": 16},
+      { "person": "C", "route": "runs up the slipway", "time_taken_s": 5},
+      { "person": "D", "route": "walks up the slipway", "time_taken_s": 10 }
+    ]
+  }
+  ,
+  {
+    "question": "A vehicle sinks into soft ground.\nThe vehicle is changed so that it does not sink as far.\nWhich change is made? ",
+    "picture": null,
+    "answers" : [
+      {"A":"a lower centre of mass"},
+      {"B": "a more powerful engine"},
+      {"C": "wheels that are further apart" },
+      {"D":  "wider tyres"}
+    ]
+
+  }
+,
+  {
+    "question": "A manometer is used to measure the pressure of a gas trapped in a cylinder.\nAt which labelled point on the diagram is the pressure greatest? ",
+    "picture": "0625_12_FM_7.png",
+    "answers" : [
+      {"A":"A"},
+      {"B": "B"},
+      {"C": "C" },
+      {"D":  "D"}
+    ]
+  }
+,
+  {
+    "question": "Extremely small pollen grains in water are viewed through a microscope. The grains are seen to\nmove continually and randomly.\nWhat is the reason for this random movement? ",
+    "picture": null,
+    "answers" : [
+      {"A":"The grains are moved by randomly moving water molecules. "},
+      {"B": "The grains are moved by random convection currents in the water. "},
+      {"C": "The grains are moved by random rays of light reflecting off them." },
+      {"D":  "The grains are moved by the random motion of their own atoms."}
+    ]
+  }
+,
+  {
+    "question": "A gas is compressed in a sealed cylinder by moving a piston. Which row in the table states what happens to the density of the gas and to the pressure of the\ngas when it is compressed?",
+    "picture": "0625_12_FM_8.png",
+    "answers" : null,
+    "table" : [
+      { "Answer": "A", "density": "decreases", "pressure": "decreases"},
+      { "Answer": "B", "density": "decreases", "pressure": "increases"},
+      { "Answer": "C", "density": "increases", "pressure": "decreases"},
+      { "Answer": "D", "density": "increases", "pressure": "increases" }
+    ]
+  }
+  ,
+
+  {
+    "question": "A gas is compressed in a sealed cylinder by moving a piston. Which row in the table states what happens to the density of the gas and to the pressure of the\ngas when it is compressed?",
+    "picture": null,
+    "answers" : null,
+    "table" : [
+      { "Answer": "A", "temperature_of_steam_while_it_is_condensing": "decreases", "temperature_of_water_while_it_is_solidifying": "decreases"},
+      { "Answer": "B", "temperature_of_steam_while_it_is_condensing": "decreases", "temperature_of_water_while_it_is_solidifying": "stays the same"},
+      { "Answer": "C", "temperature_of_steam_while_it_is_condensing": "stays the same", "temperature_of_water_while_it_is_solidifying": "decreases"},
+      { "Answer": "D", "temperature_of_steam_while_it_is_condensing": "stays the same", "temperature_of_water_while_it_is_solidifying": "stays the same" }
+    ]
+  }
+,
+
+  {
+    "question": "A thermometer has graduations which start at –10°C and end at 110°C. What is the lower fixed point and what is the upper fixed point of the Celsius scale?",
+    "picture": "0625_12_FM_9.png",
+    "answers" : null,
+    "table" : [
+      { "Answer": "A", "lower_fixed_point": -10, "upper_fixed_point": 100 },
+      { "Answer": "B", "lower_fixed_point": -10, "upper_fixed_point": 110 },
+      { "Answer": "C", "lower_fixed_point": 0, "upper_fixed_point": 100 },
+      { "Answer": "D", "lower_fixed_point": 0, "upper_fixed_point": 110  }
+    ]
+  }
+
+,
+
+  {
+    "question": "What is the name of the process of heat transfer using electromagnetic waves?",
+    "picture": null,
+    "answers" : [
+      {"A":"conduction"},
+      {"B":"convection"},
+      {"C":"evaporation" },
+      {"D":"radiation "}
+    ]
+
+  }
+,
+
+  {
+    "question": "Ice is trapped by a metal gauze at the bottom of a tube containing water.\nThe water is heated strongly at the top, but the ice only melts very slowly. Why does the ice melt so slowly?  ",
+
+
+    "picture": "0625_12_FM_10.png",
+    "answers" : [
+      {"A":"Heat energy always travels upwards"},
+      {"B":"Hot water is more dense than cold water."},
+      {"C":"Metal gauze does not allow heat to pass through." },
+      {"D":"Water is a poor conductor of heat."}
+    ]
+
+  }
+
+,
+
+  {
+    "question": "A transverse wave moves along a rope.\nThe diagram shows the position of the rope at one particular time. Which two labelled points are one wavelength apart?",
+
+
+    "picture": "0625_12_FM_11.png",
+    "answers" : [
+      {"A":"W and X"},
+      {"B":"W and Z"},
+      {"C":"X and Z" },
+      {"D":"Y and Z"}
+    ]
+
+  }
+,
+
+  {
+    "question": "The diagram shows a water wave passing through a gap in a harbour wall. The wavefronts curve\nround the wall and reach a small boat in the harbour.What is the name of this curving effect, and how can the gap be changed so that the wavefronts\ndo not reach the boat?",
+
+
+    "picture": "0625_12_FM_12.png",
+    "answers" : null,
+    "table" : [
+      { "Answer": "A", "name_of_effect": "diffraction", "change_to_the_gap": "make the gap slightly bigger" },
+      { "Answer": "B", "name_of_effect": "diffraction", "change_to_the_gap": "make the gap slightly smaller"},
+      { "Answer": "C", "name_of_effect": "refraction", "change_to_the_gap": "make the gap slightly bigger" },
+      { "Answer": "D", "name_of_effect": "refraction", "change_to_the_gap": "make the gap slightly smaller"  }
+    ]
+  },
+
+  {
+    "question": "Which labelled distance is the focal length of the lens?",
+
+
+    "picture": null,
+    "answers" : [
+      {"A":"W and X"},
+      {"B":"W and Z"},
+      {"C":"X and Z" },
+      {"D":"Y and Z"}
+    ]
+
+  },
+  {
+    "question": "A ray of light is reflected by two parallel plane mirrors X and Y. Which statement is correct? ",
+
+
+    "picture": "0625_12_FM_13.png",
+    "answers" : [
+      {"A":"The angle of incidence at mirror X is 30°."},
+      {"B":"The angle of incidence at mirror Y is 60°. "},
+      {"C":"The angle of reflection at mirror X is 120°. " },
+      {"D":"The angle of reflection at mirror Y is 0°. "}
+    ]
+
+  }
+,
+  {
+    "question": "How do infra-red waves differ from ultraviolet waves? ",
+
+
+    "picture": null,
+    "answers" : [
+      {"A":"Infra-red waves are longitudinal. "},
+      {"B":"Infra-red waves have a lower speed in vacuo (in a vacuum). "},
+      {"C":"Infra-red waves have lower frequencies." },
+      {"D":"Infra-red waves have smaller wavelengths."}
+    ]
+
+  }
+,
+  {
+    "question": "What is the approximate range of audible sound frequencies for a human with good hearing? ",
+
+
+    "picture": null,
+    "answers" : [
+      {"A":"from 20Hz to 2000Hz"},
+      {"B":"from 20Hz to 20000Hz"},
+      {"C":"from 200Hz to 20 000Hz" },
+      {"D":"from 200Hz to 200000Hz"}
+    ]
+
+  }
+,
+  {
+    "question": "A pulse of sound is produced at the bottom of a boat. The sound travels through the water and is\nreflected from the sea-bed. The sound reaches the boat again after 1.3s. The sea-bed is 1000m\nbelow the boat. Using this information, what is the speed of sound in the water? ",
+
+
+    "picture": "0625_12_FM_14.png",
+    "answers" : [
+      {"A":"769 m/s"},
+      {"B":"1300 m/s"},
+      {"C":"1538 m/s" },
+      {"D":"2600 m/s"}
+    ]
+
+  }
+,
+  {
+    "question": "The diagram shows two magnets and two iron rods placed in a line. Which magnetic poles are induced at the ends J and K of the iron rods? ",
+    "picture": "0625_12_FM_15.png",
+    "answers" : null,
+    "table" : [
+      { "Answer": "A", "pole_induced_at_end_J": "N", "pole_induced_at_end_K": "N" },
+      { "Answer": "B", "pole_induced_at_end_J": "N", "pole_induced_at_end_K": "S"},
+      { "Answer": "C", "pole_induced_at_end_J": "S", "pole_induced_at_end_K": "N" },
+      { "Answer": "D", "pole_induced_at_end_J": "S", "pole_induced_at_end_K": "S"  }
+    ]
+  }
+,
+  {
+    "question": "A teacher wishes to show the production of electrostatic charges.\nShe holds a rod and rubs it with a cotton cloth. A copper rod, a glass rod, a plastic rod and a steel\nrod are available.\nWhich two rods would both be suitable to use?",
+    "picture": null,
+
+    "answers" : [
+      {"A":"a copper rod and a glass rod"},
+      {"B":"a glass rod and a plastic rod"},
+      {"C":"a plastic rod and a copper rod" },
+      {"D":"a plastic rod and a steel rod "}
+    ]
+
+  }
+
+,
+  {
+    "question": "A student wishes to determine the resistance of a resistor. She uses an ammeter and a voltmeter\nin a circuit.\nIn which circuit are the ammeter and voltmeter connected correctly? ",
+    "picture": null,
+
+    "answers" : [
+      {"A":"a copper rod and a glass rod"},
+      {"B":"a glass rod and a plastic rod"},
+      {"C":"a plastic rod and a copper rod" },
+      {"D":"a plastic rod and a steel rod "}
+    ]
+
+  }
+,
+  {
+    "question": "A battery is connected to two crocodile clips and a lamp.\nThere is a gap between the crocodile clips.Four cylinders W, X, Y and Z are made of the same metal but have different dimensions. The\ncylinders are connected in turn, by their ends, between the crocodile clips. The diagrams of the\ncylinders are all drawn to the same scale. Which cylinder makes the lamp glow most brightly and which cylinder makes the lamp glow least\nbrightly?",
+    "picture": null,
+
+    "answers" : [
+      {"A":"a copper rod and a glass rod"},
+      {"B":"a glass rod and a plastic rod"},
+      {"C":"a plastic rod and a copper rod" },
+      {"D":"a plastic rod and a steel rod "}
+    ]
+
+  }
+,
+  {
+    "question": "In which circuit can the lamps be switched on and off independently? ",
+    "picture": null,
+
+    "answers" : [
+      {"A":"a copper rod and a glass rod"},
+      {"B":"a glass rod and a plastic rod"},
+      {"C":"a plastic rod and a copper rod" },
+      {"D":"a plastic rod and a steel rod "}
+    ]
+
+  }
+,
+  {
+    "question": "Two resistors, with resistances R1 and R2, are connected in parallel.\nThe resistance R1 is greater than the resistance R2. What is the resistance of the parallel combination?",
+    "picture": null,
+
+    "answers" : [
+      {"A":"less than either R1 or R2"},
+      {"B":"equal to R1"},
+      {"C":"equal to R2" },
+      {"D":"the average of R1 and R2"}
+    ]
+
+  }
+,
+  {
+    "question": "In the circuit shown, the switch is closed for a long time, then opened. Immediately after the switch is opened, which of the voltmeters reads zero?",
+    "picture": "0625_12_FM_16.png",
+
+    "answers" : [
+      {"A":"voltmeter 1 only"},
+      {"B":"voltmeter 2 only"},
+      {"C":"voltmeter 3 only" },
+      {"D":"voltmeter 1, voltmeter 2 and voltmeter 3"}
+    ]
+  }
+,
+  {
+    "question": "Either a fuse or a circuit-breaker can be used to protect electrical cables from large currents that\ncould cause overheating. When a fuse is used, where should it be connected, and when a circuit-breaker is used, where\nshould it be connected?",
+    "picture": "0625_12_FM_17.png",
+    "answers" : null,
+    "table" : [
+      { "Answer": "A", "pole_induced_at_end_J": "N", "pole_induced_at_end_K": "N" },
+      { "Answer": "B", "pole_induced_at_end_J": "N", "pole_induced_at_end_K": "S"},
+      { "Answer": "C", "pole_induced_at_end_J": "S", "pole_induced_at_end_K": "N" },
+      { "Answer": "D", "pole_induced_at_end_J": "S", "pole_induced_at_end_K": "S"  }
+    ]
+  }
+
+,
+  {
+    "question": "Which device uses slip rings?",
+    "picture": null,
+
+    "answers" : [
+      {"A":"a d.c. electric motor"},
+      {"B":"a relay"},
+      {"C":"a transformer" },
+      {"D":"an a.c. generator "}
+    ]
+  }
+
+,
+  {
+    "question": "The diagram shows a coil of wire connected to a voltmeter. A student has a magnet and an unmagnetised iron rod.\nHow can an e.m.f. be induced across the coil?",
+    "picture": "0625_12_FM_18.png",
+
+    "answers" : [
+      {"A":"holding the magnet inside the coil"},
+      {"B":"holding the iron rod inside the coil"},
+      {"C":"pushing the magnet into the coil " },
+      {"D":"pushing the iron rod into the coil "}
+    ]
+  }
+,
+  {
+    "question": "A step-down transformer is used to light a 12V lamp from a 240V mains supply. The lamp lights\nat normal brightness. The primary coil has 600 turns. How many turns are in the secondary coil? ",
+    "picture": "0625_12_FM_19.png",
+
+    "answers" : [
+      {"A": 12 },
+      {"B": 20 },
+      {"C": 30 },
+      {"D": 50 }
+    ]
+  }
+,
+  {
+    "question": "What happens in the process of thermionic emission?",
+    "picture": null,
+
+    "answers" : [
+      {"A": "Complete molecules are emitted from the surface of a hot liquid. " },
+      {"B": "Single atoms are emitted from the surface of a hot liquid."},
+      {"C": "Electrons are emitted from the surface of a hot metal. "},
+      {"D": "Protons are emitted from the surface of a hot metal. " }
+    ]
+  }
+,
+  {
+    "question": "Which row shows the relative ionising effects and penetrating abilities of α-particles and\nβ-particles? ",
+    "picture": "0625_12_FM_18.png",
+
+    "answers" : null,
+    "table" : [
+    { "Answer": "A", "ionising_effect": "α greater than β ", "penetrating_ability": "α greater than β " },
+    { "Answer": "B", "ionising_effect": "α greater than β", "penetrating_ability": "α less than β"},
+    { "Answer": "C", "ionising_effect": "α less than β", "penetrating_ability": "α greater than β" },
+    { "Answer": "D", "ionising_effect": "α less than β", "penetrating_ability": "α less than β"  }
+  ]
+
+  }
+,
+  {
+    "question": "A radioactive substance has a half-life of 2 weeks. At the beginning of an investigation, a sample\nof the substance emits 3000 β-particles per minute.\nHow many β-particles will it emit per minute after 6 weeks? ",
+    "picture": null,
+    "answers" : [
+      {"A": 0 },
+      {"B": 375  },
+      {"C": 500 },
+      {"D": 1500  }
+    ]
+
+  }
+,
+  {
+    "question": "A nuclide has the symbol C\n14\n6\n.\nHow many protons are there in one nucleus of this nuclide? ",
+    "picture": "0625_12_FM_18.png",
+    "answers" : [
+      {"A": 6 },
+      {"B": 8  },
+      {"C": 14 },
+      {"D": 20  }
+    ]
+
+  }
+
+
+
+]
