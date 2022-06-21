@@ -17,7 +17,7 @@ public class QuizController {
     public String quizQuestion(){
 
         JSONHandling jsonHandling = new JSONHandling();
-        System.out.println(jsonHandling.readJSONfile());
+       
         return "[{\n" +
                 "  \"question\": \"A student wishes to find the volume of a small, irregularly-shaped stone.A ruler and a measuring cylinder containing some water are available.\\nWhich apparatus is needed?\",\n" +
                 "  \"picture\": null,\n" +

@@ -4,6 +4,7 @@ import com.example.edubackend.model.user.User;
 import com.example.edubackend.model.user.UserService;
 import com.example.edubackend.payload.PagedResponse;
 import com.example.edubackend.payload.SubjectHome;
+import com.example.edubackend.payload.SubjectPayLoad;
 import com.example.edubackend.payload.UserProfile;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,10 +31,28 @@ public class ApplicationController {
 
    }
 
+    @GetMapping("/subject/{subject}")
+    public ResponseEntity<PagedResponse> subjectList(@PathVariable(value = "subject") String subject){
+
+
+        PagedResponse<SubjectPayLoad> pagedResponse = new PagedResponse<>();
+        List<SubjectPayLoad> list = new ArrayList<>();
+
+
+        for (int i = 0; i < 10 ; i++) {
+            list.add(new SubjectPayLoad("Paper 12",subject,80,true));
+        }
+        pagedResponse.setContent(list);
+
+        return  new ResponseEntity<PagedResponse>(pagedResponse ,HttpStatus.OK);
+
+    }
+
+
     @GetMapping("/home/{username}")
     public ResponseEntity<PagedResponse> home(@PathVariable(value = "username") String username){
 
-       String[] subjects = new String[]{"Biology","Physics", "Mathematics", "PE", "Shona", "VPA", "Computer_Science","English"};
+        String[] subjects = new String[]{"Biology","Physics", "Mathematics", "PE", "Shona", "VPA", "Computer_Science","English"};
         PagedResponse<SubjectHome> pagedResponse = new PagedResponse<>();
         List<SubjectHome> list = new ArrayList<>();
         for (String i:subjects) {
